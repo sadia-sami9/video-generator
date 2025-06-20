@@ -9,7 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
+/server/video-generator-463222-2a3459699829.json
 # testing
 /coverage
 

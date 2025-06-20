@@ -19,7 +19,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     // res.status(200).json(data);
     // Log the raw response text to debug the issue
     const rawResponse = await response.text(); // Use .text() to get the raw response as string
-    console.log("Raw response:", rawResponse);
+    // console.log("Raw response:", rawResponse);
 
     try {
       const data = JSON.parse(rawResponse); // Parse the response as JSON
